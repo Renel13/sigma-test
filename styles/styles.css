@@ -55,6 +55,11 @@
     border: 1px solid black;
 }
 
+.difference-container {
+    padding-bottom: 5px;
+}
+
+
 /*
     iPad styles
 */
@@ -98,6 +103,10 @@
 
     .difference-container {
         padding-bottom: 10px;
+    }
+
+    .timers {
+        float: right;
     }
 
 
