@@ -1,0 +1,104 @@
+.content {
+    border: 1px solid black;
+}
+
+.time {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.settings {
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.settings-label {
+    font-size: 18px;
+}
+.settings-label-container {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.primary-time-label {
+    font-size: 22px;
+}
+
+.primary-time-label-container {
+    padding-top: 20px;
+}
+
+
+.primary-time {
+    font-size: 42px;
+}
+
+.secondary-time-label {
+    font-size: 14px;
+}
+.secondary-time {
+    font-size: 18px;
+}
+
+.secondary-time-container {
+    padding-top: 20px;
+}
+
+.timers {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.line {
+    border: 1px solid black;
+}
+
+/*
+    iPad styles
+*/
+
+@media screen and (max-width: 992px) {
+
+    .settings {
+        padding-top: 50px;
+    }
+
+    .difference-container {
+        padding-bottom: 10px;
+    }
+}
+
+/*
+    iPhone styles
+*/
+
+@media screen and (max-width: 768px) {
+    .set-time-btn {
+        width: 100%;
+    }
+
+    .set-submit-btn {
+        width: 100%;
+    }
+
+    .time {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    .settings {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    .line {
+        border: 0px;
+    }
+
+    .difference-container {
+        padding-bottom: 10px;
+    }
+
+
+}

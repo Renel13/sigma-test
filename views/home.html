@@ -1,0 +1,83 @@
+<div class="row">
+    <div class="time">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 col-sm-12">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                    <span>Set Toronto time:</span>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <input type="text" id="toronto-time" name="torontoTime" data-ng-model="worldTime.startTime"
+                           class="pull-left form-control"  required/>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <button type="button" class="btn set-time-btn" ng-click="setTime()">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="row timers">
+            <div class="col-lg-6">
+                <div class="col-lg-3 primary-time-label-container">
+                    <span class="primary-time-label">Toronto:</span>
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <span class="primary-time">{{worldTime.toronto.displayTime}}</span>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-8">
+                <div class="col-lg-4 col-md-4 secondary-time-container">
+                    <div class="col-lg-6 col-md-4">
+                        <span class="secondary-time-label">London:</span>
+                    </div>
+                    <div class="col-lg-6 col-md-4">
+                        <span class="secondary-time">{{worldTime.london.displayTime}}</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 secondary-time-container">
+                    <div class="col-lg-6 col-md-4">
+                        <span class="secondary-time-label">Sydney:</span>
+                    </div>
+                    <div class="col-lg-6 col-md-4">
+                        <span class="secondary-time">{{worldTime.sydney.displayTime}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <hr class="line"/>
+    <div class="settings">
+        <div class="row settings-label-container">
+            <div class="col-lg-6">
+                <span class="settings-label">Settings:</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 difference-container">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <span>Time difference for London:</span>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-3">
+                    <input type="text" id="london-difference" name="londonDifference" data-ng-model="worldTime.london.difference"
+                           class="pull-left form-control"  required/>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-3">
+                    <button type="button" class="btn set-submit-btn" ng-click="setDifference()">Submit</button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <span>Time difference for Sydney:</span>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-3">
+                    <input type="text" id="sydney-difference" name="sydneyDifference" data-ng-model="worldTime.sydney.difference"
+                           class="pull-left form-control" required/>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-3">
+                    <button type="button" class="btn set-submit-btn" ng-click="setDifference()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
