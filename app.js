@@ -3,7 +3,7 @@
 /**
  * @name worldClock
  * @description
- * # sigmaTest
+ * # worldClock
  *
  * Main module of the application.
  */
