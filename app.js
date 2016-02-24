@@ -1,13 +1,13 @@
 'use strict';
 
 /**
- * @name sigmaTest
+ * @name worldClock
  * @description
  * # sigmaTest
  *
  * Main module of the application.
  */
-angular.module('sigmaTest', ['ngRoute'])
+angular.module('worldClock', ['ngRoute'])
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.
             when('/', {
