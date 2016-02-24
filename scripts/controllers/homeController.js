@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('sigmaTest')
+angular.module('worldClock')
     .controller('homeController', ['$scope', '$interval', function($scope, $interval) {
 
         var interval = 1000;
